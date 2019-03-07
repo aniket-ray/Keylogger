@@ -1,1 +1,1 @@
-Key.enterKey.cmdçKey.esc
+[Shift]AniketKey.spaceKey.shift_rRAYKey.esc
