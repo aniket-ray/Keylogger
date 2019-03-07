@@ -1,0 +1,1 @@
+Key.enterKey.cmdçKey.esc
